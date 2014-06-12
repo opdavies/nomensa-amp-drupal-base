@@ -1,6 +1,7 @@
 name = Nomensa AMP Base
 description = A module for installing and configuring the Nomensa AMP for the demo sites.
-core = 7.x
+core = 6.x
 
 dependencies[] = libraries
+dependencies[] = jquery_update
 dependencies[] = nomensa_amp
