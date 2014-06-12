@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function nomensa_amp_base_install() {
+  $settings = array(
+    'players' => array(
+      'youtube' => 1,
+      'vimeo' => 1,
+      'jwplayer' => 1
+    ),
+    'advanced' => array(
+      'minimised' => 1
+    ),
+  );
+
+  variable_set('nomensa_amp_settings', $settings);
+}
