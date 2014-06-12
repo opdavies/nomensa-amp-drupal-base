@@ -1,6 +1,7 @@
 name = Nomensa AMP Base
 description = A module for installing and configuring the Nomensa AMP for the demo sites.
 core = 7.x
+required = TRUE
 
 dependencies[] = libraries
 dependencies[] = nomensa_amp
