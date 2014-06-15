@@ -16,4 +16,8 @@ function nomensa_amp_base_install() {
   );
 
   variable_set('nomensa_amp_settings', $settings);
+  
+  $modules = array('overlay');
+  module_disable($modules);
+  drupal_uninstall_modules($modules);
 }
